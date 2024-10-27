@@ -1,0 +1,65 @@
+
+.control-panel {
+    margin-bottom: 20px;
+}
+.control-panel select,
+.control-panel button,
+.control-panel input {
+    margin: 5px;
+    padding: 5px;
+}
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+.container {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.tdl {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgb(222, 229, 240);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+    text-align: left;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgb(236, 240, 247);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.btx {
+    background-color: #3c8ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 17px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#tasklist {
+    list-style: none;
+    padding: 0;
+}
+
+#tasklist li {
+    padding: 10px;
+    position: relative;
+}
+
+.close {
+    color: red;
+    float: right;
+    cursor: pointer;
+}
