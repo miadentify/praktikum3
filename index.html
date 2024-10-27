@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ngelist Sengg</title>
+    </head>
+    <link rel="stylesheet" href="tugas3.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <body>
+        <div class="container">
+                <h1>NGELIST GA?!</h1>
+            <div class="control-panel">
+                <label for="fontSize">Font Size:</label>
+                <input type="range" id="fontSize" min="12" max="36" value="16" oninput="changeFontSize(this.value)">
+                <span id="fontSizeValue">16px</span>
+                <br>
+                <button onclick="toggleDarkMode()">Dark Mode</button>
+                <br>
+                <label for="bgColor">Background Color:</label>
+                <select id="bgColor" onchange="changeBackgroundColor()">
+                    <option value="white">White</option>
+                    <option class="lightgray" value="lightgray">Light Gray</option>
+                    <option class="lightblue" value="lightblue">Light Blue</option>
+                    <option class="pink" value="pink">Pink</option>
+                </select>
+                <label for="fontStyle">Font Style:</label>
+                <select id="fontStyle" onchange="changeFontStyle()">
+                    <option value="sans-serif">Sans-Serif</option>
+                    <option value="arial">Arial</option>
+                    <option value="calibri">Calibri</option>
+                    <option value="times new roman">Times New Roman</option>
+                </select>
+
+            </div>
+            <h2>Buat tugas baru kak</h2>
+            <input type="text" id="newTask" placeholder="tambah tugas baru">
+            <button class="btx" onclick="addTask()">Tambah</button>
+
+            <ul id="tasklist"></ul>
+        </div>
+
+        <p>I want to be your vacuum cleaner, breathing in your dust. I want to be your Ford Cortina; I will never rust. If you like your coffee hot, let me be your coffee pot. You call the shots, babe—I just want to be yours.
+
+            The secrets I’ve held in my heart are harder to hide than I thought. Maybe I just want to be yours. I want to be yours.
+            
+            Let me be your electricity meter, and I'll never run out. Let me be the portable heater you can't do without. I want to be your setting lotion, holding your hair with deep devotion—at least as deep as the Pacific Ocean. Now I want to be yours.
+<br>
+            -miaww
+        </p>
+
+        <script src="tugas3.js"></script>
+    </body>
+</html>
